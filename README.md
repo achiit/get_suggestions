@@ -1,39 +1,18 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Word Suggestions
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Word Suggestions is a Flutter package that provides a customizable `TextField` widget with word suggestions based on user input. The widget is designed to show suggestions after a brief delay of inactivity, enhancing the user experience.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Word suggestions based on user input.
+- Customizable `TextField` with various styling options.
+- Delayed suggestion display for better user experience.
+- Easy integration into your Flutter applications.
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use this package, add `get_suggestions` as a dependency in your `pubspec.yaml` file.
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  get_suggestions: ^0.1.0 # Replace with the latest version
